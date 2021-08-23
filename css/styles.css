@@ -1,0 +1,253 @@
+:root{
+--backgroundColorBlack: #2f303a;
+--highlightColor: #2196f3;
+}
+.header {
+  background-color: #ececec;
+  display: inline-flex;
+  align-items: center;
+  padding-inline: 215px;
+  width: 1600px;
+  height: 80px;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.logo span {
+  color: var(--highlightColor);
+}
+.logo a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.body {
+  background-color: #ffffff;
+  font-family: "Roboto", BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.menu-nav a {
+  text-decoration: none;
+  color: #000000;
+}
+.menu-nav a:hover {
+  color: var(--highlightColor);
+}
+.menu-nav a:focus {
+  color: var(--highlightColor);
+}
+.menu-nav li {
+  text-decoration: none;
+  display: inline;
+  margin-left: 50px;
+  padding: 3px;
+}
+.menu-nav {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  margin-left: 93px;
+  color: #000000;
+}
+.contacts {
+  margin-left: auto;
+  margin-right: 215px;
+}
+.contacts a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  color: #757575;
+  margin-left: 50px;
+}
+.contacts a:hover {
+  color: var(--highlightColor);
+}
+.contacts a:focus {
+  color: var(--highlightColor); 
+}
+
+
+
+.hat {
+  background-color: var(--backgroundColorBlack);
+  width: 1600px;
+  height: 600px;
+}
+.hat button {
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: var(--highlightColor);
+}
+.hat button:hover{
+color: #2f303a;
+background-color: #ffffff;
+}
+.hat button:focus{
+    color: var(--backgroundColorBlack);
+    background-color: #ffffff;
+}
+.hat p{
+  font-size: 44px;
+  line-height: 60px;
+  color: #ffffff;
+
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+
+
+.specifications li{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    max-width: 270px;
+    margin-left: 30px;
+    max-height: 70px;
+}
+.specifications h3{
+  font-weight: 700;
+  line-height: 171%;
+  color: #212121;
+  font-size: 14px;
+  font-style: normal;
+
+}
+.specifications p{
+    font-weight: 400;
+    line-height: 171%;
+    color: #757575;
+    font-size: 14px;
+    font-style: normal;
+}
+
+
+.activities li{
+  list-style-type: none;
+  display: inline;
+  margin-left: 30px;
+}
+.activities , h2{
+font-weight: 700;
+font-size: 36px;
+}
+
+
+.team li{
+list-style-type: none;
+display: inline-block;
+text-align: center;
+background-color: #ffffff;
+}
+.team p{
+font-weight: normal;
+font-size: 16px;
+color: #757575;
+}
+.team h4{
+  font-weight: 500;
+  font-size: 16px;
+color: #212121;
+}
+
+
+
+.selection-porfolio li {
+  display: inline;
+  text-decoration: none;
+  list-style-type: none;
+}
+.selection-porfolio button {
+  font-family: Roboto, BlinkMacSystemFont, 'Segoe UI',  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+  background-color: #f5f3fa;
+  color: #212121;
+  padding-inline: 22px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  font-size: 16px;
+  text-align: center;
+}
+.selection-porfolio button:hover {
+  background-color: var(--highlightColor);
+  color: #ffffff;
+}
+.selection-porfolio button:focus {
+  background-color: var(--highlightColor);
+  color: #ffffff;
+}
+
+.selection-menu {
+  font-family: "Roboto", sans-serif;
+}
+.selection-menu li {
+  text-decoration: none;
+  list-style-type: none;
+  background-color: #ffffff; 
+  margin-block: 30px;
+  max-width: 370px;
+}
+.selection-menu h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+.selection-menu p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.footer {
+  padding-inline: 215px;
+  background-color: var(--backgroundColorBlack);
+  height: 252px;
+  width: 1600px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer a:hover {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+.footer a:focus {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+
+.address {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  line-height: 200%;
+}
+.address li{
+  list-style-type: none;
+  text-decoration: none;
+}
+.address span{
+  color:#ffffff ;
+  }
+
+.address p{
+color: #ffffff;
+}
