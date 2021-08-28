@@ -4,11 +4,7 @@
 }
 .header {
   background-color: #ececec;
-  display: inline-flex;
   align-items: center;
-  padding-inline: 215px;
-  width: 1600px;
-  height: 80px;
 }
 
 .logo {
@@ -18,7 +14,6 @@
   font-weight: 700;
   color: #ffffff;
 }
-
 .logo span {
   color: var(--highlightColor);
 }
@@ -32,9 +27,20 @@
   font-family: "Roboto", BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.menu-nav a {
+.menu-nav {
+  display: flex ;
+  }
+.menu-nav .link {
   text-decoration: none;
   color: #000000;
+  font-weight: 500;
+  font-size: 14px;
+
+  background-color: aqua;
+
+padding-top: 32px;
+padding-bottom: 32px;
+display: block;
 }
 .menu-nav a:hover {
   color: var(--highlightColor);
@@ -44,27 +50,29 @@
 }
 .menu-nav li {
   text-decoration: none;
-  display: inline;
-  margin-left: 50px;
-  padding: 3px;
+  list-style: none;
 }
-.menu-nav {
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 14px;
-  margin-left: 93px;
-  color: #000000;
+.menu-nav .item:not(:last-child){
+  margin-right: 50px;
 }
+
 .contacts {
-  margin-left: auto;
-  margin-right: 215px;
+display: flex;
 }
 .contacts a {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
+  letter-spacing: 0.02em;
   color: #757575;
-  margin-left: 50px;
+  background-color: pink;
+  
+  padding-bottom: 32px;
+  padding-top: 32px;
+  display: flex;
+}
+.contacts .item:not(:last-child){
+  margin-right: 50px;
 }
 .contacts a:hover {
   color: var(--highlightColor);
@@ -216,24 +224,14 @@ color: #212121;
   padding-inline: 215px;
   background-color: var(--backgroundColorBlack);
   height: 252px;
-  width: 1600px;
 }
 
 .footer a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer a:hover {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 1);
-}
-.footer a:focus {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 1);
-}
 
 .address {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -244,10 +242,21 @@ color: #212121;
   list-style-type: none;
   text-decoration: none;
 }
+  .address a:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+  }
+  .address a:focus {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+  }
+  
 .address span{
   color:#ffffff ;
   }
+.address a{
 
+}
 .address p{
 color: #ffffff;
 }
