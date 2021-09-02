@@ -42,7 +42,12 @@ margin-right: auto;
     Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-
+.mainBox{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
 
 .main-nav{
@@ -64,7 +69,6 @@ align-items: center;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
-  background-color: aqua;
 
   padding-top: 32px;
   padding-bottom: 32px;
@@ -113,13 +117,18 @@ align-items: center;
   list-style: none;
 }
 
+.blck{
+  margin-bottom: 94px;
+}
 .hat {
   background-color: var(--backgroundColorBlack);
-  width: 1600px;
   height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .hat button {
-  margin-top: 30px;
   width: 200px;
   height: 50px;
   font-size: 16px;
@@ -140,14 +149,18 @@ align-items: center;
   text-align: center;
 }
 
+.specifications{
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+}
 .specifications li {
   list-style-type: none;
   text-decoration: none;
-  display: inline-block;
-  max-width: 270px;
+  display: block;
   margin-left: 30px;
-  max-height: 70px;
-}
+  }
 .specifications h3 {
   font-weight: 700;
   line-height: 171%;
@@ -163,6 +176,17 @@ align-items: center;
   font-style: normal;
 }
 
+
+.activities{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.activitiesList{
+  padding: 0px;
+}
 .activities li {
   list-style-type: none;
   display: inline;
