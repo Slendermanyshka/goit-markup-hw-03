@@ -24,6 +24,8 @@ button {
 body {
   font-family: "Roboto", BlinkMacSystemFont, "Segoe UI", Oxygen, Ubuntu,
     Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    width: 1600px;
+    margin-inline: auto;
 }
 
 .list {
@@ -42,15 +44,20 @@ box-sizing: border-box;
 }
 
 .section{
+  margin-inline: auto;
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .body .section+.section{
   margin-top: 0px;
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 
+
+.paddingKostyl{
+  padding-bottom: 0px;
+}
 
 .logo {
   text-decoration: none;
@@ -71,7 +78,7 @@ box-sizing: border-box;
 }
 .bottomLogo a {
   color: #ffffff;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .title {
@@ -271,6 +278,11 @@ box-sizing: border-box;
 }
 
 /*-----------portfolio------------*/
+.portfolioContainerFix{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .selection-porfolio{
   display: flex;
   align-self: center;
@@ -307,10 +319,12 @@ box-sizing: border-box;
 }
 
 .selection-menu {
+  margin-inline: auto;
   font-family: "Roboto", sans-serif;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 1200px;
 }
 .selection-menu li {
   text-decoration: none;
@@ -373,9 +387,11 @@ box-sizing: border-box;
   letter-spacing: 0.02em;
   line-height: 24px;
   padding: 0px;
-  margin-top: 15px;
+  margin-top: 20px;
 }
-
+.address li+li{
+  margin-top: 9px;
+}
 .address a:hover {
   text-decoration: none;
   color: rgba(255, 255, 255, 1);
