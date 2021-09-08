@@ -35,17 +35,22 @@ body {
 }
 
 .container {
-  padding-left: 215px;
-  padding-right: 215px;
-  padding-bottom: 94px;
-  padding-top: 94px;
+box-sizing: border-box;
+
   margin-left: auto;
   margin-right: auto;
 }
 
-.section {
-  margin-top: 94px;
+.section{
+  padding-top: 94px;
 }
+
+.body .section+.section{
+  margin-top: 0px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 
 .logo {
   text-decoration: none;
@@ -66,11 +71,14 @@ body {
 }
 .bottomLogo a {
   color: #ffffff;
-  margin-bottom: 30px; /*----------------------TODO-------------------------------*/
+  margin-bottom: 30px;
 }
 
 .title {
   margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 00.02em;
 }
 .sub-title {
   margin-bottom: 10px;
@@ -83,6 +91,7 @@ body {
   margin-right: auto;
   padding-top: 0px;
   padding-bottom: 0px;
+  padding-inline: 215px;
 }
 
 .mainBox {
@@ -234,7 +243,6 @@ body {
   align-items: center;
   align-self: center;
   flex-direction: column;
-  background-color: #f5f4fa;
 }
 .team li {
   display: inline-block;
@@ -256,6 +264,10 @@ body {
   font-weight: 500;
   font-size: 16px;
   color: #212121;
+}
+
+.teamSectionFIx{
+  background-color: #f5f3fa;
 }
 
 /*-----------portfolio------------*/
@@ -346,6 +358,8 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  padding-inline: 215px;
+  height: 252px;
 }
 
 .footer a {
@@ -354,15 +368,14 @@ body {
 
 .address {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.02em;
-  line-height: 200%;
+  line-height: 24px;
   padding: 0px;
   margin-top: 15px;
 }
-.address li {
-}
+
 .address a:hover {
   text-decoration: none;
   color: rgba(255, 255, 255, 1);
