@@ -224,28 +224,7 @@ margin:0 auto;
   font-size: 14px;
   font-style: normal;
 }
-/*
-.activities {
-  
-}
 
-.activitiesList{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: -30px;
-}
-
-.activitiesList li {
-  margin-left: 30px;
-  display: inline-block;
-}
-.activities h2 {
-  font-weight: 700;
-  font-size: 36px;
-}
-
-*/
 .activities {
   display: flex;
   justify-content: center;
@@ -307,6 +286,7 @@ margin:0 auto;
   align-self: center;
   justify-content: center;
   align-items: center;
+  margin-bottom: -30px;
 }
 .selection-porfolio li:not(:last-child) {
   margin-right:  8px;
@@ -374,9 +354,6 @@ margin:0 auto;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-top: 0 solid #eeeeee;
-
-
-
 }
 
 
