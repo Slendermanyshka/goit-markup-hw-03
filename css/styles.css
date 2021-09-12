@@ -37,8 +37,7 @@ body {
 
 .container {
 box-sizing: border-box;
-width: 1600px;
-padding:0 15px;
+width: 1200px;
 margin:0 auto;
 
 }
@@ -94,7 +93,7 @@ margin:0 auto;
 .header {
   margin-left: auto;
   margin-right: auto;
-  padding: 0 215px;
+  padding: 0 15px;
   border-bottom: 1px solid #ececec;
 
 }
@@ -232,14 +231,16 @@ margin:0 auto;
   align-self: center;
   flex-direction: column;
 }
-.activities li {
+.activities li{
   display: inline-block;
   text-align: center;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-
   margin-left: 30px;
+}
+.activities li:first-child{
+  margin:0;
 }
 
 .team {
@@ -257,6 +258,9 @@ margin:0 auto;
     0px 2px 1px rgba(0, 0, 0, 0.2);
 
   margin-left: 30px;
+}
+.team li:first-child{
+  margin-left: 0px;
 }
 .team p {
   font-weight: normal;
@@ -286,7 +290,7 @@ margin:0 auto;
   align-self: center;
   justify-content: center;
   align-items: center;
-  margin-bottom: -30px;
+  margin-bottom: 50px;
 }
 .selection-porfolio li:not(:last-child) {
   margin-right:  8px;
@@ -324,10 +328,10 @@ margin:0 auto;
   flex-wrap: wrap;
   justify-content: center;
 
-  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  margin-top: -30px;
+  margin-left: -30px;
 }
 .selection-menu li {
   text-decoration: none;
@@ -336,9 +340,7 @@ margin:0 auto;
   margin-top: 30px;
 
   width: 370px;
-  height: 404px;
-  left: 615px;
-  top: 262px;
+
 
   background: #ffffff;
   box-sizing: border-box;
@@ -377,7 +379,7 @@ margin:0 auto;
 
 .footer {
   background-color: var(--backgroundColorBlack);
-  padding:60px 215px;
+  padding:60px 0px;
 }
 
 .footer a {
