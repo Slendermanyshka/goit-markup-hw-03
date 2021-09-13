@@ -37,7 +37,8 @@ body {
 
 .container {
 box-sizing: border-box;
-width: 1200px;
+width: 1200px;  
+padding: 0 15px;
 margin:0 auto;
 
 }
@@ -230,6 +231,10 @@ margin:0 auto;
   align-items: center;
   align-self: center;
   flex-direction: column;
+  
+}
+.activitiesList{
+  margin-left: -30px;
 }
 .activities li{
   display: inline-block;
@@ -250,6 +255,10 @@ margin:0 auto;
   align-self: center;
   flex-direction: column;
 }
+
+.teamList{
+  margin-left: -30px;
+}
 .team li {
   display: inline-block;
   text-align: center;
@@ -257,7 +266,6 @@ margin:0 auto;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 
-  margin-left: 30px;
 }
 .team li:first-child{
   margin-left: 0px;
@@ -350,8 +358,7 @@ margin:0 auto;
 
 .textBoxForPortfolio{
   margin-top: 0;
-  padding-left: 24px;
-  padding-top: 20px;
+  padding:20px 24px ;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
